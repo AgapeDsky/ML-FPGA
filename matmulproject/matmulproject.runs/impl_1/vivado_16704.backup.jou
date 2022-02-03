@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Feb  3 11:35:35 2022
+# Process ID: 16704
+# Current directory: F:/Kuliah/Riset_FPGA/matmul project/matmulproject/matmulproject.runs/impl_1
+# Command line: vivado.exe -log MatmulAcceleratorTop.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source MatmulAcceleratorTop.tcl -notrace
+# Log file: F:/Kuliah/Riset_FPGA/matmul project/matmulproject/matmulproject.runs/impl_1/MatmulAcceleratorTop.vdi
+# Journal file: F:/Kuliah/Riset_FPGA/matmul project/matmulproject/matmulproject.runs/impl_1\vivado.jou
+#-----------------------------------------------------------
+source MatmulAcceleratorTop.tcl -notrace

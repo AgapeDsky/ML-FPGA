@@ -1,0 +1,7 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/Users/Asus TUF/Desktop/Matmul_tb/Matmul_tb.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,xil_defaultlib,,,,,,
+C:/Users/Asus TUF/Desktop/repo/src/hdl/matmul/Matmul.sv,1643817982,systemVerilog,,C:/Users/Asus TUF/Desktop/repo/src/testbench/mac/Matmul_tb.sv,,Matmul,,xil_defaultlib,C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include,,,,,
+C:/Users/Asus TUF/Desktop/repo/src/testbench/mac/Matmul_tb.sv,1643883451,systemVerilog,,,,Matmul_tb,,xil_defaultlib,C:/Xilinx/Vivado/2017.4/data/xilinx_vip/include,,,,,

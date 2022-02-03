@@ -1,0 +1,671 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Thu Feb  3 06:51:16 2022
+# Process ID: 5816
+# Current directory: C:/Users/Asus TUF/Desktop/matmulproject
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent16432 C:\Users\Asus TUF\Desktop\matmulproject\matmulproject.xpr
+# Log file: C:/Users/Asus TUF/Desktop/matmulproject/vivado.log
+# Journal file: C:/Users/Asus TUF/Desktop/matmulproject\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.xpr}
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2017.4/data/ip'.
+WARNING: [BD 41-1661] One or more IPs have been locked in the design 'design_1.bd'. Please run report_ip_status for more details and recommendations on how to fix this issue.
+List of locked IPs:
+design_1_xbar_1
+design_1_axi_interconnect_0_0
+design_1_proc_sys_reset_0_0
+design_1_processing_system7_0_0
+design_1_axi_interconnect_1_0
+design_1_axi_dma_0_0
+
+open_project: Time (s): cpu = 00:00:35 ; elapsed = 00:00:25 . Memory (MB): peak = 844.129 ; gain = 139.328
+update_compile_order -fileset sources_1
+open_bd_design {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd}
+Adding cell -- xilinx.com:ip:processing_system7:5.5 - processing_system7_0
+ERROR: [BD 41-145] Parameter M_AXI_GP0.PROTOCOL not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.READ_WRITE_MODE not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.DATA_WIDTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.ADDR_WIDTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.ID_WIDTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_BURST not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_LOCK not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_CACHE not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_QOS not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_PROT not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_WSTRB not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_BRESP not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.HAS_RRESP not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter M_AXI_GP0.MAX_BURST_LENGTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.PROTOCOL not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.READ_WRITE_MODE not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.DATA_WIDTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.ADDR_WIDTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.ID_WIDTH not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_BURST not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_LOCK not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_CACHE not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_QOS not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_PROT not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_WSTRB not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_BRESP not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.HAS_RRESP not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.SUPPORTS_NARROW_BURST not found on block processing_system7_0 
+ERROR: [BD 41-145] Parameter S_AXI_HP0.MAX_BURST_LENGTH not found on block processing_system7_0 
+Adding cell -- xilinx.com:ip:axi_dma:7.1 - axi_dma_0
+ERROR: [BD 41-145] Parameter S_AXI_LITE.NUM_READ_OUTSTANDING not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXI_LITE.NUM_WRITE_OUTSTANDING not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXI_LITE.SUPPORTS_NARROW_BURST not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXI_LITE.MAX_BURST_LENGTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.PROTOCOL not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.READ_WRITE_MODE not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.DATA_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.ADDR_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.ARUSER_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.HAS_CACHE not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.HAS_PROT not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.HAS_RRESP not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_MM2S.NUM_WRITE_OUTSTANDING not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.PROTOCOL not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.READ_WRITE_MODE not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.DATA_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.ADDR_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.AWUSER_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.HAS_CACHE not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.HAS_PROT not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.HAS_WSTRB not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.HAS_BRESP not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXI_S2MM.NUM_READ_OUTSTANDING not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.TDATA_NUM_BYTES not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.TUSER_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.TID_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.TDEST_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.HAS_TREADY not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.HAS_TKEEP not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter M_AXIS_MM2S.HAS_TLAST not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.TDATA_NUM_BYTES not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.TUSER_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.TID_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.TDEST_WIDTH not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.HAS_TREADY not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.HAS_TKEEP not found on block axi_dma_0 
+ERROR: [BD 41-145] Parameter S_AXIS_S2MM.HAS_TLAST not found on block axi_dma_0 
+Adding cell -- xilinx.com:ip:proc_sys_reset:5.0 - proc_sys_reset_0
+Adding cell -- xilinx.com:module_ref:MatmulAcceleratorTop:1.0 - MatmulAcceleratorTop_0
+Adding cell -- xilinx.com:ip:axi_crossbar:2.1 - xbar
+ERROR: [BD 41-145] Parameter S00_AXI.PROTOCOL not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.READ_WRITE_MODE not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.DATA_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.ADDR_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.AWUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.ARUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.WUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.RUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.BUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.ID_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.HAS_BURST not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.HAS_LOCK not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.HAS_CACHE not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.HAS_QOS not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.NUM_READ_OUTSTANDING not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.NUM_WRITE_OUTSTANDING not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.SUPPORTS_NARROW_BURST not found on block xbar 
+ERROR: [BD 41-145] Parameter S00_AXI.MAX_BURST_LENGTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.PROTOCOL not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.READ_WRITE_MODE not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.DATA_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.ADDR_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.AWUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.ARUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.WUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.RUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.BUSER_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.ID_WIDTH not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.HAS_BURST not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.HAS_LOCK not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.HAS_CACHE not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.HAS_QOS not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.HAS_REGION not found on block xbar 
+ERROR: [BD 41-145] Parameter M00_AXI.NUM_READ_OUTSTANDING not found on block xbar 
+INFO: [Common 17-14] Message 'BD 41-145' appears 100 times and further instances of the messages will be disabled. Use the Tcl command set_msg_config to change the current settings.
+Successfully read diagram <design_1> from BD file <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd>
+open_bd_design: Time (s): cpu = 00:00:26 ; elapsed = 00:00:22 . Memory (MB): peak = 940.703 ; gain = 86.539
+ERROR: [Common 17-39] 'open_bd_design' failed due to earlier errors.
+report_ip_status -name ip_status 
+upgrade_ip [get_ips  {design_1_axi_interconnect_1_0 design_1_processing_system7_0_0 design_1_axi_dma_0_0 design_1_proc_sys_reset_0_0 design_1_axi_interconnect_0_0}] -log ip_upgrade.log
+Upgrading 'C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd'
+INFO: [IP_Flow 19-3420] Updated design_1_axi_dma_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_axi_interconnect_0_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_axi_interconnect_1_0 to use current project options
+INFO: [IP_Flow 19-3420] Updated design_1_proc_sys_reset_0_0 to use current project options
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+INFO: [IP_Flow 19-3420] Updated design_1_processing_system7_0_0 to use current project options
+Wrote  : <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd> 
+INFO: [Coretcl 2-1525] Wrote upgrade log to 'C:/Users/Asus TUF/Desktop/matmulproject/ip_upgrade.log'.
+upgrade_ip: Time (s): cpu = 00:00:45 ; elapsed = 00:00:39 . Memory (MB): peak = 1041.809 ; gain = 100.125
+export_ip_user_files -of_objects [get_ips {design_1_axi_interconnect_1_0 design_1_processing_system7_0_0 design_1_axi_dma_0_0 design_1_proc_sys_reset_0_0 design_1_axi_interconnect_0_0}] -no_script -sync -force -quiet
+generate_target all [get_files  {{C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd}}]
+CRITICAL WARNING: [BD 41-1356] Address block </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is not mapped into </axi_dma_0/Data_MM2S>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is not mapped into </axi_dma_0/Data_S2MM>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_dma_0/S_AXI_LITE/Reg> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+WARNING: [BD 41-702] Propagation TCL tries to overwrite USER strength parameter C_M_AXI_S2MM_DATA_WIDTH(64) on '/axi_dma_0' with propagated value(32). Command ignored
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [BD 41-1356] Address block </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is not mapped into </axi_dma_0/Data_MM2S>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </processing_system7_0/S_AXI_HP0/HP0_DDR_LOWOCM> is not mapped into </axi_dma_0/Data_S2MM>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-1356] Address block </axi_dma_0/S_AXI_LITE/Reg> is not mapped into </processing_system7_0/Data>. Please use Address Editor to either map or exclude it.
+CRITICAL WARNING: [BD 41-237] Bus Interface property TDATA_NUM_BYTES does not match between /MatmulAcceleratorTop_0/s_axis(4) and /axi_dma_0/M_AXIS_MM2S(1)
+WARNING: [BD 41-927] Following properties on pin /MatmulAcceleratorTop_0/clk have been updated from connected ip. They may not be synchronized with cell properties. You can set property on pin directly to confirm the value and resolve the warning.
+	CLK_DOMAIN=design_1_processing_system7_0_0_FCLK_CLK0 
+Wrote  : <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd> 
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_1/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_1/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_interconnect_1_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_interconnect_1_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_interconnect_1_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/MatmulAcceleratorTop_0/s_axis_tdata'(32) to net 'axi_dma_0_M_AXIS_MM2S_TDATA'(8) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/synth/design_1.v
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_1/m00_couplers/auto_pc/m_axi_bid'(1) to net 'auto_pc_to_m00_couplers_BID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/axi_interconnect_1/m00_couplers/auto_pc/m_axi_rid'(1) to net 'auto_pc_to_m00_couplers_RID'(6) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_AWID'(6) to net 'axi_interconnect_1_M00_AXI_AWID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_WID'(6) to net 'axi_interconnect_1_M00_AXI_WID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/processing_system7_0/S_AXI_HP0_ARID'(6) to net 'axi_interconnect_1_M00_AXI_ARID'(1) - Only lower order bits will be connected.
+WARNING: [BD 41-235] Width mismatch when connecting pin: '/MatmulAcceleratorTop_0/s_axis_tdata'(32) to net 'axi_dma_0_M_AXIS_MM2S_TDATA'(8) - Only lower order bits will be connected.
+VHDL Output written to : C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/sim/design_1.v
+VHDL Output written to : C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/hdl/design_1_wrapper.v
+CRITICAL WARNING: [xilinx.com:ip:processing_system7:5.5-1] design_1_processing_system7_0_0: Critical Warning:- LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+INFO: [BD 41-1029] Generation completed for the IP Integrator block processing_system7_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_dma_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block proc_sys_reset_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block MatmulAcceleratorTop_0 .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/xbar .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_mmu .
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s01_mmu .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_1/design_1_auto_pc_1_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/m00_couplers/auto_pc .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/ip/design_1_auto_us_0/design_1_auto_us_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_1/s00_couplers/auto_us .
+WARNING: [IP_Flow 19-4994] Overwriting existing constraint file 'c:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/ip/design_1_auto_pc_0/design_1_auto_pc_0_ooc.xdc'
+INFO: [BD 41-1029] Generation completed for the IP Integrator block axi_interconnect_0/s00_couplers/auto_pc .
+Exporting to file C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/hw_handoff/design_1.hwh
+Generated Block Design Tcl file C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/hw_handoff/design_1_bd.tcl
+Generated Hardware Definition File C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/synth/design_1.hwdef
+generate_target: Time (s): cpu = 00:02:00 ; elapsed = 00:01:41 . Memory (MB): peak = 1209.270 ; gain = 155.895
+catch { config_ip_cache -export [get_ips -all design_1_processing_system7_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_axi_dma_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_proc_sys_reset_0_0] }
+catch { config_ip_cache -export [get_ips -all design_1_xbar_0] }
+catch { config_ip_cache -export [get_ips -all design_1_s00_mmu_0] }
+catch { config_ip_cache -export [get_ips -all design_1_s01_mmu_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_1] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_us_0] }
+catch { config_ip_cache -export [get_ips -all design_1_auto_pc_0] }
+export_ip_user_files -of_objects [get_files {{C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd}}] -no_script -sync -force -quiet
+create_ip_run [get_files -of_objects [get_fileset sources_1] {{C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd}}]
+create_ip_run: Time (s): cpu = 00:00:07 ; elapsed = 00:00:05 . Memory (MB): peak = 1209.270 ; gain = 0.000
+launch_runs -jobs 4 {design_1_processing_system7_0_0_synth_1 design_1_axi_dma_0_0_synth_1 design_1_proc_sys_reset_0_0_synth_1 design_1_MatmulAcceleratorTop_0_0_synth_1 design_1_xbar_0_synth_1 design_1_s00_mmu_0_synth_1 design_1_s01_mmu_0_synth_1 design_1_auto_pc_1_synth_1 design_1_auto_us_0_synth_1 design_1_auto_pc_0_synth_1}
+[Thu Feb  3 06:56:22 2022] Launched design_1_processing_system7_0_0_synth_1, design_1_axi_dma_0_0_synth_1, design_1_proc_sys_reset_0_0_synth_1, design_1_MatmulAcceleratorTop_0_0_synth_1, design_1_xbar_0_synth_1, design_1_s00_mmu_0_synth_1, design_1_s01_mmu_0_synth_1, design_1_auto_pc_1_synth_1, design_1_auto_us_0_synth_1, design_1_auto_pc_0_synth_1...
+Run output will be captured here:
+design_1_processing_system7_0_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_processing_system7_0_0_synth_1/runme.log
+design_1_axi_dma_0_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_axi_dma_0_0_synth_1/runme.log
+design_1_proc_sys_reset_0_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_proc_sys_reset_0_0_synth_1/runme.log
+design_1_MatmulAcceleratorTop_0_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_MatmulAcceleratorTop_0_0_synth_1/runme.log
+design_1_xbar_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_xbar_0_synth_1/runme.log
+design_1_s00_mmu_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_s00_mmu_0_synth_1/runme.log
+design_1_s01_mmu_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_s01_mmu_0_synth_1/runme.log
+design_1_auto_pc_1_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_auto_pc_1_synth_1/runme.log
+design_1_auto_us_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_auto_us_0_synth_1/runme.log
+design_1_auto_pc_0_synth_1: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_auto_pc_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:00:10 ; elapsed = 00:00:11 . Memory (MB): peak = 1209.270 ; gain = 0.000
+export_simulation -of_objects [get_files {{C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd}}] -directory {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.ip_user_files/sim_scripts} -ip_user_files_dir {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.ip_user_files} -ipstatic_source_dir {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.ip_user_files/ipstatic} -lib_map_path [list {modelsim=C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.cache/compile_simlib/modelsim} {questa=C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.cache/compile_simlib/questa} {riviera=C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.cache/compile_simlib/riviera} {activehdl=C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.cache/compile_simlib/activehdl}] -use_ip_compiled_libs -force -quiet
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+WARNING: [IP_Flow 19-474] Invalid Parameter 'Component_Name'
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [PS7-6]  LVCMOS33 (3.3V) is not supported for RGMII interface in Ethernet0. Recommendation is to use 1.8/2.5V IO.
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+startgroup
+set_property -dict [list CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY0 {0.221} CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY1 {0.222} CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY2 {0.217} CONFIG.PCW_UIPARAM_DDR_BOARD_DELAY3 {0.244} CONFIG.PCW_APU_PERIPHERAL_FREQMHZ {667} CONFIG.PCW_SDIO_PERIPHERAL_FREQMHZ {50} CONFIG.PCW_PRESET_BANK1_VOLTAGE {LVCMOS 1.8V} CONFIG.PCW_UIPARAM_DDR_MEMORY_TYPE {DDR 3 (Low Voltage)} CONFIG.PCW_QSPI_GRP_SINGLE_SS_ENABLE {1} CONFIG.PCW_ENET0_GRP_MDIO_ENABLE {1} CONFIG.PCW_ENET0_GRP_MDIO_IO {MIO 52 .. 53} CONFIG.PCW_MIO_16_SLEW {fast} CONFIG.PCW_MIO_17_SLEW {fast} CONFIG.PCW_MIO_18_SLEW {fast} CONFIG.PCW_MIO_19_SLEW {fast} CONFIG.PCW_MIO_20_SLEW {fast} CONFIG.PCW_MIO_21_SLEW {fast} CONFIG.PCW_MIO_22_SLEW {fast} CONFIG.PCW_MIO_23_SLEW {fast} CONFIG.PCW_MIO_24_SLEW {fast} CONFIG.PCW_MIO_25_SLEW {fast} CONFIG.PCW_MIO_26_SLEW {fast} CONFIG.PCW_MIO_27_SLEW {fast}] [get_bd_cells processing_system7_0]
+CRITICAL WARNING: [PSU-1]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_0 has negative value -0.050 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-2]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_1 has negative value -0.044 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-3]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_2 has negative value -0.035 . PS DDR interfaces might fail when entering negative DQS skew values. 
+CRITICAL WARNING: [PSU-4]  Parameter : PCW_UIPARAM_DDR_DQS_TO_CLK_DELAY_3 has negative value -0.100 . PS DDR interfaces might fail when entering negative DQS skew values. 
+endgroup
+reset_run design_1_processing_system7_0_0_synth_1
+save_bd_design
+Wrote  : <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Feb  3 07:54:27 2022] Launched design_1_processing_system7_0_0_synth_1...
+Run output will be captured here: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_processing_system7_0_0_synth_1/runme.log
+[Thu Feb  3 07:54:27 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+[Thu Feb  3 07:59:52 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/impl_1/runme.log
+open_run synth_1 -name synth_1
+Design is defaulting to impl run constrset: constrs_1
+Design is defaulting to synth run part: xc7z020clg400-1
+INFO: [Netlist 29-17] Analyzing 2290 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 1 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Device 21-403] Loading part xc7z020clg400-1
+INFO: [Project 1-570] Preparing netlist for logic optimization
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+INFO: [Project 1-111] Unisim Transformation Summary:
+No Unisim elements were transformed.
+
+open_run: Time (s): cpu = 00:00:56 ; elapsed = 00:00:44 . Memory (MB): peak = 1829.781 ; gain = 344.496
+place_ports
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Build CellView Core
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.126 . Memory (MB): peak = 1848.789 ; gain = 2.117
+
+Phase 1.2 Add User PBlocks
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.127 . Memory (MB): peak = 1848.789 ; gain = 2.117
+
+Phase 1.3 Apply User PBlocks
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.127 . Memory (MB): peak = 1848.789 ; gain = 2.117
+
+Phase 1.4 Add terminal Constraints
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1848.789 ; gain = 2.117
+
+Time (s): cpu = 00:00:01 ; elapsed = 00:00:00.128 . Memory (MB): peak = 1848.789 ; gain = 2.117
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (167) is greater than number of available sites (125).
+The following are banks with available pins: 
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    25 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   125 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+
+Phase 2 IO and Clk Clean Up
+
+Phase 2.1 FixIDCReqs
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 1858.758 ; gain = 12.086
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 1858.758 ; gain = 12.086
+
+Time (s): cpu = 00:00:16 ; elapsed = 00:00:05 . Memory (MB): peak = 1858.758 ; gain = 12.086
+place_ports: Time (s): cpu = 00:00:17 ; elapsed = 00:00:05 . Memory (MB): peak = 1858.758 ; gain = 13.508
+ERROR: [Common 17-39] 'place_ports' failed due to earlier errors.
+place_ports
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Build CellView Core
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.2 Add User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.109 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.3 Apply User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.4 Add terminal Constraints
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.110 . Memory (MB): peak = 2267.879 ; gain = 0.000
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (167) is greater than number of available sites (125).
+The following are banks with available pins: 
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    25 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   125 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+
+Phase 2 IO and Clk Clean Up
+
+Phase 2.1 FixIDCReqs
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:08 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+place_ports: Time (s): cpu = 00:00:09 ; elapsed = 00:00:07 . Memory (MB): peak = 2267.879 ; gain = 0.000
+ERROR: [Common 17-39] 'place_ports' failed due to earlier errors.
+set_property keep_compatible {xc7z010clg400}  [current_design]
+WARNING: [Place 30-954] Among compatible parts (xc7z010clg400), the following package pins do not have the same bank types. T8, U11, W7, and Y10
+place_ports
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Build CellView Core
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.2 Add User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.3 Apply User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.4 Add terminal Constraints
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2267.879 ; gain = 0.000
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (167) is greater than number of available sites (100).
+The following are banks with available pins: 
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   100 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+
+Phase 2 IO and Clk Clean Up
+
+Phase 2.1 FixIDCReqs
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+place_ports: Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+ERROR: [Common 17-39] 'place_ports' failed due to earlier errors.
+set_property keep_compatible {}  [current_design]
+place_ports
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Build CellView Core
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.092 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.2 Add User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.3 Apply User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.093 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Phase 1.4 Add terminal Constraints
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.094 . Memory (MB): peak = 2267.879 ; gain = 0.000
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (167) is greater than number of available sites (125).
+The following are banks with available pins: 
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    25 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   125 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+
+Phase 2 IO and Clk Clean Up
+
+Phase 2.1 FixIDCReqs
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+
+Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+place_ports: Time (s): cpu = 00:00:06 ; elapsed = 00:00:06 . Memory (MB): peak = 2267.879 ; gain = 0.000
+ERROR: [Common 17-39] 'place_ports' failed due to earlier errors.
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new
+can't create directory "C:/Users/Asus": permission denied
+file mkdir C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1
+can't create directory "C:/Users/Asus": permission denied
+file mkdir {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new}
+close [ open {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new/constrain_1.xdc} w ]
+add_files -fileset constrs_1 {{C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new/constrain_1.xdc}}
+set_property target_constrs_file {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new/constrain_1.xdc} [current_fileset -constrset]
+reset_run design_1_processing_system7_0_0_synth_1
+launch_runs design_1_processing_system7_0_0_synth_1
+INFO: [IP_Flow 19-4993] Using cached IP synthesis design for IP design_1_processing_system7_0_0, cache-ID = 44bb1399ce83bd66; cache size = 12.648 MB.
+[Thu Feb  3 08:21:58 2022] Launched design_1_processing_system7_0_0_synth_1...
+Run output will be captured here: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/design_1_processing_system7_0_0_synth_1/runme.log
+launch_runs: Time (s): cpu = 00:01:12 ; elapsed = 00:00:58 . Memory (MB): peak = 2355.180 ; gain = 87.301
+wait_on_run design_1_processing_system7_0_0_synth_1
+[Thu Feb  3 08:21:58 2022] Waiting for design_1_processing_system7_0_0_synth_1 to finish...
+[Thu Feb  3 08:22:04 2022] Waiting for design_1_processing_system7_0_0_synth_1 to finish...
+[Thu Feb  3 08:22:09 2022] Waiting for design_1_processing_system7_0_0_synth_1 to finish...
+[Thu Feb  3 08:22:14 2022] Waiting for design_1_processing_system7_0_0_synth_1 to finish...
+[Thu Feb  3 08:22:24 2022] Waiting for design_1_processing_system7_0_0_synth_1 to finish...
+
+*** Running vivado
+    with args -log design_1_processing_system7_0_0.vds -m64 -product Vivado -mode batch -messageDb vivado.pb -notrace -source design_1_processing_system7_0_0.tcl
+
+
+****** Vivado v2017.4 (64-bit)
+  **** SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+  **** IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+    ** Copyright 1986-2017 Xilinx, Inc. All Rights Reserved.
+
+source design_1_processing_system7_0_0.tcl -notrace
+INFO: [IP_Flow 19-4838] Using cached IP synthesis design for IP design_1_processing_system7_0_0, cache-ID = 44bb1399ce83bd66.
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  3 08:22:28 2022...
+[Thu Feb  3 08:22:30 2022] design_1_processing_system7_0_0_synth_1 finished
+wait_on_run: Time (s): cpu = 00:00:03 ; elapsed = 00:00:32 . Memory (MB): peak = 2355.207 ; gain = 0.027
+refresh_design
+INFO: [Netlist 29-17] Analyzing 2290 Unisim elements for replacement
+INFO: [Netlist 29-28] Unisim Transformation completed in 0 CPU seconds
+INFO: [Project 1-479] Netlist was created with Vivado 2017.4
+INFO: [Project 1-570] Preparing netlist for logic optimization
+Parsing XDC File [C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new/constrain_1.xdc]
+Finished Parsing XDC File [C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/constrs_1/new/constrain_1.xdc]
+INFO: [Opt 31-138] Pushed 0 inverter(s) to 0 load pin(s).
+refresh_design: Time (s): cpu = 00:00:32 ; elapsed = 00:00:19 . Memory (MB): peak = 2363.121 ; gain = 7.914
+place_ports
+
+Starting IO/Clock Placer Task
+
+Phase 1 Add Constraints new method
+
+Phase 1.1 Build CellView Core
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.104 . Memory (MB): peak = 2363.121 ; gain = 0.000
+
+Phase 1.2 Add User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2363.121 ; gain = 0.000
+
+Phase 1.3 Apply User PBlocks
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.105 . Memory (MB): peak = 2363.121 ; gain = 0.000
+
+Phase 1.4 Add terminal Constraints
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.106 . Memory (MB): peak = 2363.121 ; gain = 0.000
+
+Time (s): cpu = 00:00:00 ; elapsed = 00:00:00.106 . Memory (MB): peak = 2363.121 ; gain = 0.000
+ERROR: [Place 30-58] IO placement is infeasible. Number of unplaced terminals (167) is greater than number of available sites (125).
+The following are banks with available pins: 
+ERROR: [Place 30-374] IO placer failed to find a solution
+Below is the partial placement that can be analyzed to see if any constraint modifications will make the IO placement problem easier to solve.
+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+|                                                                     IO Placement : Bank Stats                                                                           |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+| Id | Pins  | Terms |                               Standards                                |                IDelayCtrls               |  VREF  |  VCCO  |   VR   | DCI |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|  0 |     0 |     0 |                                                                        |                                          |        |        |        |     |
+| 13 |    25 |     0 |                                                                        |                                          |        |        |        |     |
+| 34 |    50 |     0 |                                                                        |                                          |        |        |        |     |
+| 35 |    50 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+|    |   125 |     0 |                                                                        |                                          |        |        |        |     |
++----+-------+-------+------------------------------------------------------------------------+------------------------------------------+--------+--------+--------+-----+
+
+IO Placement:
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+| BankId |             Terminal | Standard        | Site                 | Pin                  | Attributes           |
++--------+----------------------+-----------------+----------------------+----------------------+----------------------+
+
+
+Phase 2 IO and Clk Clean Up
+
+Phase 2.1 FixIDCReqs
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2363.121 ; gain = 0.000
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2363.121 ; gain = 0.000
+
+Time (s): cpu = 00:00:07 ; elapsed = 00:00:06 . Memory (MB): peak = 2363.121 ; gain = 0.000
+place_ports: Time (s): cpu = 00:00:07 ; elapsed = 00:00:07 . Memory (MB): peak = 2363.121 ; gain = 0.000
+ERROR: [Common 17-39] 'place_ports' failed due to earlier errors.
+open_bd_design {C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd}
+startgroup
+set_property -dict [list CONFIG.c_m_axi_s2mm_data_width.VALUE_SRC PROPAGATED] [get_bd_cells axi_dma_0]
+endgroup
+save_bd_design
+Wrote  : <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/design_1.bd> 
+Wrote  : <C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.srcs/sources_1/bd/design_1/ui/bd_1f5defd0.ui> 
+reset_run synth_1
+launch_runs synth_1 -jobs 4
+[Thu Feb  3 08:31:36 2022] Launched synth_1...
+Run output will be captured here: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 4
+WARNING: [Project 1-478] Design 'synth_1' is stale and will not be used when launching 'impl_1'
+[Thu Feb  3 08:35:51 2022] Launched impl_1...
+Run output will be captured here: C:/Users/Asus TUF/Desktop/matmulproject/matmulproject.runs/impl_1/runme.log
+exit
+INFO: [Common 17-206] Exiting Vivado at Thu Feb  3 08:47:04 2022...
