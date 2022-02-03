@@ -1,5 +1,0 @@
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Asus TUF/Desktop/repo/src/hdl/matmul/Matmul.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Matmul
-INFO: [VRFC 10-2263] Analyzing SystemVerilog file "C:/Users/Asus TUF/Desktop/repo/src/testbench/mac/Matmul_tb.sv" into library xil_defaultlib
-INFO: [VRFC 10-311] analyzing module Matmul_tb
-WARNING: [VRFC 10-2502] extra semicolon in $unit (global) scope [C:/Users/Asus TUF/Desktop/repo/src/testbench/mac/Matmul_tb.sv:71]
